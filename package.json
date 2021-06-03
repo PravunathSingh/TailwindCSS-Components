@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development postcss ./src/css/style.css -o build/style.css -w --verbose",
+    "build": "NODE_ENV=production postcss ./src/css/style.css -o build/style.css --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
